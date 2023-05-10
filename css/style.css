@@ -1,0 +1,107 @@
+main.rounded {
+  border-radius: 25px;
+}
+
+main.bg-light {
+  background-color: f8f9fa;
+}
+
+main.p {
+  padding-left: 10px;
+  
+}
+.main {
+  margin: 20px;
+}
+
+
+.location-dropdown,.categories input.search-form  {
+  border-radius: 20px;
+  padding: 5px 10px;
+  background-image: url("location-symbol.png");
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 2px solid #ccc;
+  font-size: 16px;
+}
+
+.location-dropdown:focus{
+  outline: none;
+  border-color: #2196F3;
+  box-shadow: 0 0 5px #2196F3;
+}
+
+.nav-item {
+  margin-right: auto;
+  margin-left: 0;
+}
+.carousel
+{
+  padding-top: 0%;
+  border-radius: 25px;
+
+}
+.categories h1.category-head,
+.categories input.search-form {
+display: inline-block;
+vertical-align: middle;
+
+}
+.categories input.search-form {
+margin-left: 60%;
+}
+
+.categories h1.category-head{
+padding-left: 2%;
+}
+body {
+font-family: Arial, sans-serif;
+}
+
+.categories{
+background-color: f8f9fa;
+}
+
+main.btn-transparent{
+  border-radius: 25px;
+
+}
+.grid-offers{
+  background-color:f8f9fa;
+  padding-top: 30px;
+}
+.gridimage{
+  width: 100px;
+}
+.offers-heading1{
+  color: red;
+  text-align: center;
+  
+}
+
+.offers-heading2{
+  font-style: oblique;
+  text-align: center;
+  
+}
+
+.offers-column{
+  align-content: center;
+  text-align: center;
+}
+
+
+.footer{
+  background-color: f8f9fa;
+  text-align: center;
+}
+.copyright{
+  padding: 4px;
+}
+
+.footer-list1{
+  list-style-type:none
+}
