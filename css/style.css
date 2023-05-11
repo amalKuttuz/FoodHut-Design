@@ -1,9 +1,10 @@
-main.rounded {
-  border-radius: 25px;
-}
+
+/* not responsive */
 
 main.bg-light {
-  background-color: f8f9fa;
+  /* background-color: f8f9fa; */
+  background-color: #ffeaff;
+
 }
 
 main.p {
@@ -12,8 +13,25 @@ main.p {
 }
 .main {
   margin: 20px;
+  border-radius: 25px;
+  font-family: sans-serif;
+
+}
+.navbar{
+border: 5px;
 }
 
+.navbar-brand,.footer-heading1{
+  font-weight: 1000;
+  font-size: xx-large;
+  font-family: sans-serif;
+
+}
+
+.navbar-brand b,.footer-heading1 b{
+  color: rgb(255, 0, 0);
+  font-weight: 1000;
+} 
 
 .location-dropdown,.categories input.search-form  {
   border-radius: 20px;
@@ -26,6 +44,7 @@ main.p {
   appearance: none;
   border: 2px solid #ccc;
   font-size: 16px;
+  margin: 5pt;
 }
 
 .location-dropdown:focus{
@@ -65,12 +84,91 @@ font-family: Arial, sans-serif;
 background-color: f8f9fa;
 }
 
-main.btn-transparent{
+.signup-button,.signin-button{
+  
   border-radius: 25px;
+  margin: 3pt;
+  cursor: zoom-in;
+  background-color: rgb(0, 102, 255);
+  color: aliceblue;
+  font-size:larger;
+}
+
+.col-md-4{
+  border-radius: 45px;
+}
+.grid-content{
+  gap: 40px;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.content-column1 {
+  display: block;
+  width: 100%;
+ align-content: center;
+ padding-left: 200px;
+}
+.content-column1 h2{
+ font-size:80px;
+ font-family: sans-serif;
+ margin-bottom: 20px;
+ max-width: 100%;
+}
+.content-column1 b{
+color: #ff511c;
+}
+
+.content-column1 button{
+  padding: 10px 23px;
+  align-content: right;
+  background-color: #ff511c;
+  color: white;
+  border-radius: 5px;
+  border:none;
+}
+
+.content-column1 p{
+ font-size: 23px;
+ line-height: 2pc;
+ margin-bottom: 20px;
+ font-family: sans-serif;
+}
+.content-column2{
+  display: block;
+  width: 100%;
 
 }
+.content-column2 img{
+ width: 450px;
+ height: auto;
+ position: relative;
+animation: rotate 10s linear infinite;
+user-select: none;
+}
+
+@keyframes rotate {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+
+.categories{
+  border: 5px;
+}
+
+
+.grid-content{
+  width: 100%;
+}
+
+
 .grid-offers{
-  background-color:f8f9fa;
+  background-color:#f8f9fa;
   padding: 30px;
 }
 .gridimage{
@@ -116,3 +214,23 @@ main.btn-transparent{
   color: black;
   text-decoration: none;
 }
+
+
+/* @media screen and (max-width:915px) and (min-width:212px){
+  main.p {
+    padding-left:1px;
+    
+  }
+
+  .navbar-brand b,.footer-heading1 b{
+    color: rgb(255, 0, 0);
+    font-weight: 1000;
+  } 
+  .main {
+    margin: 20px;
+    border-radius: 25px;
+    font-family: sans-serif;
+  
+  }
+
+} */
