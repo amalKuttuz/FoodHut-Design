@@ -228,7 +228,7 @@ user-select: none;
   color: #ff0000; /* change this to the desired color */
 }
 
-@media screen and (max-width:914px) and (min-width:412px){
+@media screen and (max-width:714px) and (min-width:200px){
   .main {
     border-radius: 25px;  
   }
