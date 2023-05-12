@@ -8,17 +8,18 @@
         </title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css">
         <link rel="stylesheet" href="css/style.css">
    
     </head>
 
     <body>
-        <div class="main rounded bg-light p">
+        <div class="main container">
             <!--content goes here -->
         
           	<!-- Navigation bar -->
-            <nav class="navbar navbar-expand-lg">
+            <nav class="navbar navbar-expand-lg custom-navbar-toggler">
               <div class="container-fluid">
                 <a class="navbar-brand" href="#">Food <b>Hut</b></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,23 +27,21 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                   <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <!-- <li class="nav-item">
+                    <!-- <button class="btn signin-button">Signin</button>
+                    <button class="btn signup-button">Signup</button> -->
+                    <li class="nav-item">
                       <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li> -->
-                      <a class="nav-item" href="#">
-                        <select class="location-dropdown">
-                          <option disabled selected>Select your location</option>
-                          <option>New York</option>
-                          <option>Los Angeles</option>
-                          <option>Chicago</option>
-                          <option>Houston</option>
-                        </select>
-                      </a>
-                   
-                    <li>
-                      <button class="signin-button">Signin</button>
-                      <button class="signup-button">Signup</button>
                     </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Help</a>
+                    </li>
+                      
+                        <!-- <i class="fa fa-map-marker" aria-hidden="true"> -->
+                        <input class="location-box" type="text" placeholder="Select Location"> </i>
+                                    
                   </ul>
                 </div>
               </div>
@@ -67,7 +66,7 @@
                   </div>
                   </div>
             <!--Categories -->
-            <div class="categories ">
+            <div class="categories">
             <div class="category-nav">
               <h1 class="category-head"> Resturants</h1>
               <input class="search-form" type="text" placeholder="Search by name" aria-label="default input example">
