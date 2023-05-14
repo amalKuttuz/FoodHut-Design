@@ -88,7 +88,6 @@ padding-left: 2%;
 }
 
 .categories{
-/* background-color: #f8f9fa; */
 margin-top: 30px;
 padding: 5px;
 border: 10px;
@@ -173,38 +172,46 @@ user-select: none;
   width: 100%;
 }
 
-.grid-offers{
-  /* background-color:#f8f9fa; */
-  padding: 30px;
-}
-
 .gridimage{
-  width: 110px;
+  width: 100px;
+}
+.offers-row{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 35px;
+}
+.offers-column1,
+.offers-column2,
+.offers-column3 {
+  margin-right: 60px;
+  border: 2px solid #ccc;
+  background-color: rgb(255, 255, 255);
+  font-size: large;
+  width: 25%;
+  text-align: center;
+  padding-top: 10px;
+  margin-top: 60px;
+
+}
+.offers-heading2{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding-top: 20pt;
+  font-weight: 600;
+
 }
 
 .offers-heading1{
-  color: red;
+  color: rgb(255, 27, 27);
   text-align: center;
-}
+  padding-top: 20pt;
 
-.offers-heading2{
-  font-style: oblique;
-  text-align: center;
-}
-
-.offers-column1,.offers-column2,.offers-column3{
-  align-content: center;
-  text-align: center;
-}
-
-.offers-column2{
-  padding-top: 25pt;
 }
 
 .footer{
   background-color: f8f9fa;
-  text-align: center;
-  padding: 20pt;
+  padding-top: 120px;
+  margin-left: 65px;
 }
 
 .copyright{
@@ -212,9 +219,7 @@ user-select: none;
 }
 
 .footer-list2,.footer-list3,.footer-col1{
-  text-align: left;
   list-style-type:none;
-  margin-left: 70pt;
   text-decoration:black
 }
 
@@ -226,7 +231,7 @@ user-select: none;
   color: #ff0000; /* change this to the desired color */
 }
 
-@media screen and (min-width:350px){
+@media screen and (min-width:350px) and (max-width:700px){
   .main {
     border-radius: 25px;  
   }
@@ -245,10 +250,10 @@ user-select: none;
   }
 
   .content-column1 h2{
-    font-size:25px;
+    font-size:23px;
     margin-bottom: 5px;
     max-width: 100%;
-    text-align: justify;
+    text-align: left;
    }
    .content-column1 button{
     padding: 4px 5px;
@@ -298,7 +303,7 @@ user-select: none;
   }
   .categories input.search-form {
     margin-left:1px;
-    font-size: 16px;
+    font-size: 10px;
     }
   .categories h1.category-head{
       padding-left:2px;
@@ -306,5 +311,45 @@ user-select: none;
       padding-top: 1px;
     }
 
+    .offers-row{
+      display: block;
+      padding: 25px;
+    }
+    .offers-column1,
+    .offers-column2,
+    .offers-column3 {
+      width: 100%;
+      margin-bottom: 5px;
+      border: 2px solid #ccc;
+      background-color: rgb(255, 255, 255);
+      font-size: large;
+      
+    }
+    
+    
+    .footer-row{
+      display: block;
 
- }
+    }
+
+    .footer{
+      background-color: f8f9fa;
+      padding-top: 60px;
+      margin-left: 0px;
+      text-align: center;
+
+    }
+    .footer-col1,.footer-col2,.footer-col3{
+      width: 100%;
+      margin-bottom: 30px;    
+      text-align: center;
+
+    }
+    .copyright{
+      padding-top: 10pt;
+      padding-left: 10pt
+    }
+  }
+
+
+ 
