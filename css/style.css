@@ -1,7 +1,7 @@
 
 body {
   font-family: sans-serif;
-  background-color: #ffeaff;
+  /* background-color: #ffeaff; */
   }
 
 main.p {
@@ -11,10 +11,10 @@ main.p {
 .main {
   border-radius: 25px;
   font-family: sans-serif;
-  background-color: #ffeaff;
+  /* background-color: #ffeaff; */
 }
 .navbar{
-    background-color: #fdf2fd;
+    /* background-color: #fdf2fd; */
     box-shadow: 0 0 5px rgba(0,0,0,0.1);
     padding: 0%;
 }

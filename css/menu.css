@@ -11,7 +11,7 @@
     .card-col {
         flex: 0 0 calc(33.33% - 20px); /* Set column width to 33.33% minus 20px for margin */
         margin: 10px; /* Add margin around the column */
-        box-shadow: 0 0 5px rgba(0,0,0,0.1);
+        box-shadow: 0 0 5px rgba(0,0,0,0.2);
 
     }
 
@@ -27,16 +27,15 @@
     }
     
     .main .food-menu{
-        width: 100%;
-        height: 100%;
-        background-color: #fff;
+       
+        /* background-color: #fff; */
         /* border-radius: 40% 5% 40% 5%; */
         border-radius: 15% 15% 15% 15%;
 
         margin-top:35px;
         padding-bottom: 60px;
         justify-content: center;
-        box-shadow: 0 0 5px rgba(0,0,0,0.1);
+        /* box-shadow: 0 0 5px rgba(0,0,0,0.1); */
     }
     .main .food-menu .menu-head{
         padding-bottom:15px;
@@ -119,19 +118,26 @@
 
 @media screen and (min-width:350px) and (max-width:700px){
 
+.food-menu{
+    width: 340px;
+}
 .main .menu-grid{
 display: flex;
 flex-direction: column;
-}
-.main .menu-grid .col img{
-    position: absolute;
-    width: 60px;
-    height: auto;
-}
-.main .menu-grid .col{
-    border: 2px solid #ffeaff;
-    background-color: rgb(255, 255, 255);
+padding-bottom: 0%;
+
 
 }
+.main .food-menu{
+    /* border-radius: 40% 5% 40% 5%; */
+    border-radius: 2% 2% 2% 2%;
+}
+.main .menu-grid .card-col{
+   right:12%;
+
+}
+.food-image{
+    padding-top:10px;
 }
 
+}
