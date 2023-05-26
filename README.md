@@ -49,8 +49,9 @@ I'm a full stack developer...
 
 ## Usage/Examples
 
-Home: https://amalkuttuz.github.io/FoodHut-Design/home.html
-Food Menu: https://amalkuttuz.github.io/FoodHut-Design/menu.html
-Login: https://amalkuttuz.github.io/FoodHut-Design/login.html
-Registration: https://amalkuttuz.github.io/FoodHut-Design/registration.html
+- Home: https://amalkuttuz.github.io/FoodHut-Design/home.html 
+- Food Menu: https://amalkuttuz.github.io/FoodHut-Design/menu.html 
+- Login: https://amalkuttuz.github.io/FoodHut-Design/login.html 
+- Registration: https://amalkuttuz.github.io/FoodHut-Design/registration.html
+
 
